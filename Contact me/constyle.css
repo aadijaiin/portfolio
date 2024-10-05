@@ -1,0 +1,127 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    color: white;
+    
+}
+
+body {
+    height: 100vh;
+    background-image: url(images/blackglassmo.jpg);
+    
+    
+    
+}
+.svg{
+    height: 75px;
+    fill : white;
+    padding: 30px;
+    
+    &:hover {
+        cursor: pointer;
+        animation: scale 0.3s ease-in-out 0s 1 forwards;
+        
+    }
+}
+
+
+.links {
+    
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+@keyframes scale {
+
+    0% {
+        scale: 1;
+    }
+    100% {
+        scale: 1.2;
+    }
+     
+}
+
+.qna {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+h2,p {
+    display: block;
+}
+
+.connect{
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div {
+
+    margin-bottom: 20px;
+
+}
+.span1 {
+    backdrop-filter: blur(10px) saturate(180%);
+    -webkit-backdrop-filter: blur(10px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    height: 200px;
+    color: black;
+    cursor: pointer;
+  }
+  
+.span2 {
+    backdrop-filter: blur(10px) saturate(180%);
+    -webkit-backdrop-filter: blur(10px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+    height: 200px;
+    color: black;
+    cursor: pointer;
+}
+.span2 input {
+    color: black;
+    height: 50px;
+    width: 380px;
+    border-radius: 10px;
+    margin-top: 25px;
+    font-weight: 700;
+}
+.span1 input {
+    color: black;
+    font-weight: 700;
+    height: 50px;
+    width: 280px;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+input::placeholder{
+    text-align: center;
+}
+
+p{
+    font-size: 18px;
+}
+
+
+
+
+  
