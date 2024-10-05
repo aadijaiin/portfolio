@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    overscroll-behavior: none;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    
+}
+.hero {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(images/glassmor.jpg);
+    background-size: cover;
+}
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    padding: 10px; 
+    z-index: 1000;
+}
+
+.navbar a {
+    font-size: 20px;
+    color: white;
+    padding: 14px 50px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 20px; 
+    position: sticky;
+    top: 0px;
+}
+.navbar a:hover {
+    animation: a 0.8s ease-in-out 0s 1;
+}
+
+@keyframes a {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);  
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes b {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.2);  
+    }
+    
+}
+
+.glassmorphism {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 600px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    transform: scale(1.2);
+    margin-top: 100px;
+    &:hover {
+        cursor: pointer;
+        /* animation: b 1.2s forwards; */
+        
+    }
+}
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-bottom: 20px;
+}
+.intro {
+    color: white;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+h2 {
+    margin-bottom: 17px;
+}
+
+.heroin {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(images/pur.jpg);
+    background-size: cover;
+
+}
+
+
+.btn2{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 650;
+    padding: 25px 50px;
+    /* border: 2px solid white; */
+    border-radius: 10px;
+
+    background: rgba(255, 255, 255, 0.15);
+
+    &:hover {
+        animation: b 1s forwards;
+    }
+    
+    
+    
+    
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+
+.quotes{
+    height: 60vh;
+    background-color: black;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+}
+
+.quote{
+
+    height: 50%;
+    width: 80%;
+    border: 2px dashed white;
+    border-radius: 12px;
+    font-size: 22px;
+    font-weight: 700;
+
+
+}
+.heading{
+    height: 15%;
+    width: 80%;
+    
+    border-radius: 15px;
+}
+
+
+
+
+
+
