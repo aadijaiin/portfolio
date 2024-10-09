@@ -15,7 +15,7 @@ body{
     width: 100vw;
     /* background-image: url(images/pexels-adrien-olichon-1257089-2387793.jpg); */
     /* background-color: #3F3F3F; */
-    background-image: url(/images/lines.jpeg);
+    background-image: url(lines.jpeg);
     background-size: cover;
 }
 .navbar {
