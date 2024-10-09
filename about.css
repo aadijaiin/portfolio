@@ -1,0 +1,121 @@
+body {
+    height: 200vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    /* background: linear-gradient(90deg, hsla(242, 58%, 73%, 1) 0%, hsla(157, 72%, 82%, 1) 100%); */
+    background-color: #2B2B39;
+    /* background-color: black; */
+
+    overflow-x: hidden;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    height: 90vh;
+    
+    
+}
+
+.vertical-rectangle {
+    width: 40vw;
+    height: 90vh;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-right: 5vw; 
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.horizontal-rectangles {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height: 90vh;
+    justify-content: space-between;
+}
+
+.horizontal-rectangle {
+    width: 50vw;
+    height: 352px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.square{
+    width: 22vw;
+    height: 40vh;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.horizontal-squares{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40vh;
+    width: 50vw;
+}
+.fh,.fhb{
+    width: 88vw;
+    height: 40vh;
+    
+    border-radius: 10px;
+    
+
+}
+.fh {
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.fhb{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.circle {
+    height: 330px;
+    width: 330px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.8);
+
+}
+.rec {
+    width: 50vw;
+    height: 40vh;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 12px;
+}
+
+.pfp {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+
+
