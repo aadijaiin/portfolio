@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body {
     height: 200vh;
     width: 100vw;
@@ -40,6 +43,7 @@ body {
     align-items: center;
     justify-content: flex-start;
     flex-wrap: wrap;
+    padding: 50px;
 }
 
 .horizontal-rectangles {
@@ -115,6 +119,10 @@ body {
     border-radius: 50%;
     border: 2px solid black;
     margin: 10px;
+}
+
+#pink{
+    background-color: #ffb3c6;
 }
 
 
