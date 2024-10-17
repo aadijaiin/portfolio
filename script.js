@@ -48,17 +48,3 @@ const famousQuotes = [
 
 
 
-const randomno = () => {
-
-    return Math.floor(Math.random()*20)
-}
-
-a = randomno();
-b = randomno();
-
-
-
-
-
-document.querySelector(".heading").innerHTML = `<u><h2 style="color: white;">${quoteHeadings[a]}</h2></u>`;
-document.querySelector(".quote").innerHTML = `<p style="color: white;">${famousQuotes[b]}</p>`;
